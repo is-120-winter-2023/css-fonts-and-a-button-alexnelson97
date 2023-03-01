@@ -104,7 +104,13 @@ a.button:hover {
 }
 a[href]:hover {
   color: #dda15e;
+  text-decoration: none;
 }
+
+a[href] {
+  text-decoration: none;
+}
+
 .button {
   background-color: var(--color-accent);
   border: none;
