@@ -93,18 +93,13 @@ img[src$="svg"] {
   --color-accent-light: #dda15e;
 }
 
-font-family: "Istok Web", sans-serif;
-font-family: "Pacifico", cursive;
-
-color: var(--color-heading);
-
 a.button:hover {
   color: var(--color-secondary);
   transition: 0.7s;
 }
 a[href]:hover {
   color: #dda15e;
-  text-decoration: none;
+  transition: 300ms;
 }
 
 a[href] {
@@ -121,6 +116,10 @@ a[href] {
   display: inline-block;
   color: var(--color-secondary);
   transition: background-color 300ms ease;
+}
+
+body {
+  font-family: "istock web", sans-serif;
 }
 
 main {
